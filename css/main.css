@@ -49,6 +49,10 @@ header a {
   padding: 1em;
 }
 
+section h2 {
+  text-align: center;
+}
+
 .text-content {
   margin: 0 auto;
   width: 90%;
