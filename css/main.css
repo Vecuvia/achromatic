@@ -3,7 +3,7 @@ html, body {
 }
 
 body {
-  font-family: monospace;
+  font-family: "Courier Prime", "Courier New", Courier, monospace;
   line-height: 1.5;
   margin: 0;
   padding: 0;
@@ -14,7 +14,7 @@ body {
 
 header {
   background-color: #222;
-  background-image: url("../img/waterfall_to_nowhere.jpeg");
+  background-image: url("../img/header-bg.jpeg");
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
