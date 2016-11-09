@@ -27,6 +27,10 @@ header {
   color: #fff;
 }
 
+.header-content {
+  width: 50%;
+}
+
 header h1 {
   font-size: 2em;
 }
@@ -64,7 +68,7 @@ header a {
 
 @media screen and (min-width: 768px) {
   .third {
-    width: 33%;
+    width: calc(100% / 3);
   }
 }
 
