@@ -51,6 +51,11 @@ header a {
   margin-bottom: 1em;
 }
 
+main {
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+
 section h2 {
   text-align: center;
 }
@@ -59,12 +64,9 @@ section h2 {
   margin: 1em auto;
   width: 90%;
   max-width: 40em;
-  flex-grow: 1;
-  flex-shrink: 0;
 }
 
 .image-content {
-  flex-grow: 1;
   background-color: #222;
 }
 
