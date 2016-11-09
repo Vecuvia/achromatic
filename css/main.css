@@ -60,6 +60,7 @@ section h2 {
   width: 90%;
   max-width: 40em;
   flex-grow: 1;
+  flex-shrink: 0;
 }
 
 .image-content {
