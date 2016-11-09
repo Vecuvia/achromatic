@@ -4,7 +4,6 @@ html, body {
 
 body {
   font-family: monospace;
-  font-size: 1.6em;
   line-height: 1.5;
   margin: 0;
   padding: 0;
@@ -28,7 +27,7 @@ header {
 }
 
 .header-content {
-  width: 50%;
+  width: 75%;
 }
 
 header h1 {
