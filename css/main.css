@@ -52,6 +52,7 @@ header a {
   text-transform: uppercase;
   padding: 1em;
   margin-bottom: 1em;
+  background-color: rgba(34, 34, 34, 0.75); 
 }
 
 /*main {
