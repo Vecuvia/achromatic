@@ -3,10 +3,13 @@ html, body {
 }
 
 body {
+  font-family: monospace;
+  line-height: 1.5;
   margin: 0;
   padding: 0;
   display: flex;
   flex-direction: column;
+  color: #222;
 }
 
 header {
@@ -46,4 +49,5 @@ footer {
   background-color: #222;
   text-align: center;
   color: #fff;
+  padding: 1em;
 }
