@@ -54,12 +54,12 @@ header a {
   margin-bottom: 1em;
 }
 
-main {
+/*main {
   flex-grow: 1;
   -webkit-flex-grow: 1;
   flex-shrink: 0;
   -webkit-flex-shrink: 0;
-}
+}*/
 
 section h2 {
   text-align: center;
@@ -86,4 +86,5 @@ footer {
   text-align: center;
   color: #fff;
   padding: 1em;
+  margin-top: auto;
 }
