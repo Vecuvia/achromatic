@@ -66,11 +66,6 @@ section h2 {
   background-color: #222;
 }
 
-.block {
-  width: 100%;
-  float: left;
-}
-
 @media screen and (min-width: 768px) {
   .third {
     width: calc(100% / 3);
