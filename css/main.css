@@ -48,6 +48,7 @@ header a {
   text-decoration: none;
   text-transform: uppercase;
   padding: 1em;
+  margin-bottom: 1em;
 }
 
 section h2 {
@@ -55,7 +56,7 @@ section h2 {
 }
 
 .text-content {
-  margin: 0 auto;
+  margin: 1em auto;
   width: 90%;
   max-width: 40em;
   flex-grow: 1;
