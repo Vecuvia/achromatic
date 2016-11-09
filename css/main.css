@@ -20,8 +20,11 @@ header {
   background-size: cover;
   min-height: 100vh;
   display: flex;
+  display: -webkit-flex;
   align-items: center;
+  -webkit-align-items: center;
   justify-content: center;
+  -webkit-justify-content: center;
   text-align: center;
   color: #fff;
 }
@@ -53,7 +56,9 @@ header a {
 
 main {
   flex-grow: 1;
+  -webkit-flex-grow: 1;
   flex-shrink: 0;
+  -webkit-flex-shrink: 0;
 }
 
 section h2 {
