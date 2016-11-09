@@ -4,6 +4,7 @@ html, body {
 
 body {
   font-family: monospace;
+  font-size: 1.6em;
   line-height: 1.5;
   margin: 0;
   padding: 0;
@@ -27,7 +28,13 @@ header {
 }
 
 header h1 {
-  font-size: 3em;
+  font-size: 2em;
+}
+
+@media screen and (min-width: 768px) {
+  header h1 {
+    font-size: 3em;
+  }
 }
 
 header a {
@@ -39,10 +46,26 @@ header a {
   padding: 1em;
 }
 
-main {
+.text-content {
   margin: 0 auto;
+  width: 90%;
   max-width: 40em;
   flex-grow: 1;
+}
+
+.image-content {
+  background-color: #222;
+}
+
+.block {
+  width: 100%;
+  float: left;
+}
+
+@media screen and (min-width: 768px) {
+  .third {
+    width: 33%;
+  }
 }
 
 footer {
